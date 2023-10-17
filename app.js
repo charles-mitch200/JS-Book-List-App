@@ -17,7 +17,7 @@ class UI {
     });
   }
 
-  // Adds books to the table
+  // Adds books to the table list
   static addBookToList(book) {
     const list = document.querySelector("#book-list");
     const row = document.createElement("tr");
